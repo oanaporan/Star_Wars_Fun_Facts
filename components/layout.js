@@ -4,7 +4,7 @@ import Navbar from './navbar';
 const Layout = (props) => (
     <div>
         <Head>
-            <title>Start Wars fun Facts</title>
+            <title>Start Wars Fun Facts</title>
             <link rel="styleSheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css"/>
         </Head>
         <Navbar/>
