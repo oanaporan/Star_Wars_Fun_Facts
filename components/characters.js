@@ -11,7 +11,7 @@ class Prices extends React.Component {
     render() {
         return(
             <div>
-                <select class="form-control" id="exampleSelect2" placeolder="Select character..." onChange={this.getCharDetails}>
+                <select class="form-control" id="exampleSelect2" onChange={this.getCharDetails}>
                 <option default>Select Character</option>
                     {this.props.chars.map((char) => (
                         <option key={char.name} value={char.name}>{char.name}</option>
